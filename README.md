@@ -1,49 +1,36 @@
-# 🚀 AI Form Generator – Full-Stack SaaS Application
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A scalable full-stack SaaS platform that enables users to generate dynamic forms using AI prompts. Built using modern technologies like **Next.js 15 (App Router)**, **Supabase**, **Tailwind CSS**, and **OpenAI API**, the platform offers authentication, premium features, and a seamless user experience.
+## Getting Started
 
----
+First, run the development server:
 
-## 🧰 Tech Stack
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **Frontend**: Next.js 15 (App Router), Tailwind CSS, Zod  
-- **Backend**: Supabase (PostgreSQL), Prisma ORM, OpenAI API  
-- **Authentication**: Clerk (role-based auth)  
-- **Payments**: Stripe, Webhooks  
-- **DevOps**: Docker, Vercel  
-- **Others**: Cloud-based deployment, Responsive Design, Dark/Light Mode
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## ✨ Features
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- 🔐 **Authentication & Authorization**  
-  Role-based secure login/signup/logout using Clerk
+## Learn More
 
-- 🧠 **AI-Powered Form Generation**  
-  Users can create forms dynamically using OpenAI prompts
+To learn more about Next.js, take a look at the following resources:
 
-- 📦 **Database Integration**  
-  Supabase + Prisma ORM with 100% type safety for managing forms, users, and submissions
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- 💳 **Payments & Subscriptions**  
-  Stripe integration with Webhooks for premium feature access
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- ✅ **Schema Validation with Zod**  
-  Ensures input reliability and robust error handling
+## Deploy on Vercel
 
-- 🌗 **Responsive & Accessible UI**  
-  Tailwind CSS + dark/light mode support + full mobile responsiveness
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- 🐳 **Dockerized Deployment**  
-  Ensures consistent behavior across different environments
-
-
----
-
-## 🛠️ Setup Instructions
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/ai-form-generator.git
-   cd ai-form-generator
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
